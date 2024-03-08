@@ -110,7 +110,7 @@ echo "$statusCodeInformation Configuring MDATP behavior monitoring"
 sudo mdatp config behavior-monitoring --value enabled
 
 echo "$statusCodeInformation Configuring MDATP network protection to audit mode"
-sudo mdatp config network-protection enforcement-level --value audit
+sudo mdatp config network-protection enforcement-level --value enabled
 
 echo "$statusCodeInformation Configuring MDATP automatic definition updates"
 #run command mdatp config automatic-updates --value enabled
